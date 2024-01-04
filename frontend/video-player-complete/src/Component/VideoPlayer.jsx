@@ -89,7 +89,7 @@ const VideoPlayer = ({ videoId }) => {
 
   return (
     <video ref={videoRef} width='700' height='315' controls autoPlay>
-      <source src={`http://localhost:3000/videos/${videoId}`} type='video/mp4'></source>
+      <source src={`https://streamswipe-server.onrender.com`} type='video/mp4'></source>
       Your browser does not support the video tag.
     </video>
   );
