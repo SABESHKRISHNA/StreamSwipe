@@ -1,0 +1,134 @@
+/* Footer left */
+.footer-distributed .footer-left {
+    width: 30%;
+    text-align: center;
+}
+
+.footer-distributed h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-distributed h1 span {
+    color: #3cff00;
+}
+
+/* Footer links */
+.footer-distributed .footer-links {
+    color: #555;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.footer-distributed .footer-company-name {
+    color: #888;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center {
+    width: 28%;
+    text-align: left;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    line-height: 38px;
+    margin: 10px 15px;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    color: #fff;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right {
+    width: 30%;
+    text-align: right;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #3498db;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #2980b9;
+}
+
+.footer-links a:hover {
+    color: #2980b9;
+}
+
+.footer-center {
+    display: flex;
+    align-items: center;
+}
+
+/* Change Footer Background to Peacock Color */
+footer {
+    background-color: #fff; /* Peacock color */
+    color: #fff; /* White text color */
+}
